@@ -100,8 +100,8 @@ function LoginPage({onLogin}) {
     <div style={{minHeight:"100vh",background:"linear-gradient(135deg,#1E1B4B 0%,#312E81 50%,#1E1B4B 100%)",display:"flex",alignItems:"center",justifyContent:"center",padding:20}}>
       <div style={{background:"#fff",borderRadius:20,padding:"40px 36px",width:"100%",maxWidth:400,boxShadow:"0 20px 60px rgba(0,0,0,0.3)"}}>
         <div style={{textAlign:"center",marginBottom:32}}>
-          <div style={{fontSize:40,marginBottom:8}}>🤖</div>
-          <div style={{fontSize:22,fontWeight:800,color:"#1E1B4B"}}>ShopBot</div>
+          <div style={{fontSize:40,marginBottom:8}}>🤖 </div>
+          <div style={{fontSize:22,fontWeight:800,color:"#1E1B4B"}}>APT PANEL</div>
           <div style={{fontSize:13,color:"#94A3B8",marginTop:4}}>Admin Dashboard</div>
         </div>
         {error && <div style={{background:"#FEE2E2",color:"#991B1B",padding:"10px 14px",borderRadius:8,fontSize:13,marginBottom:16,border:"1px solid #FCA5A5"}}>{error}</div>}
@@ -110,7 +110,7 @@ function LoginPage({onLogin}) {
         <div style={{marginTop:4}}>
           <Btn onClick={login} disabled={loading} full color="#6366F1">{loading?"⏳ Masuk...":"Masuk"}</Btn>
         </div>
-        <div style={{textAlign:"center",marginTop:16,fontSize:12,color:"#94A3B8"}}>Default: admin / admin123</div>
+        <div style={{textAlign:"center",marginTop:16,fontSize:12,color:"#94A3B8"}}>Welcome to Panel Controller by Firman</div>
       </div>
     </div>
   );
