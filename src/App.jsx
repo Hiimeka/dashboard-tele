@@ -809,7 +809,7 @@ export default function App() {
 
       <aside style={{width:220,background:"#1E1B4B",display:"flex",flexDirection:"column",position:"fixed",top:0,left:0,height:"100vh",zIndex:50}} className={`sidebar${sidebar?" open":""}`}>
         <div style={{padding:"22px 18px 14px",borderBottom:"1px solid rgba(255,255,255,0.1)"}}>
-          <div style={{color:"#fff",fontSize:17,fontWeight:800}}>🤖 ShopBot</div>
+          <div style={{color:"#fff",fontSize:17,fontWeight:800}}>APT PANEL</div>
           <div style={{color:"#A5B4FC",fontSize:11,marginTop:2}}>Admin Dashboard</div>
         </div>
         <div style={{padding:"12px 16px",background:"rgba(99,102,241,0.2)",margin:"10px 12px",borderRadius:10,display:"flex",alignItems:"center",gap:10}}>
